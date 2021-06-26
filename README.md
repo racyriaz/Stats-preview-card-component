@@ -10,7 +10,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
-  - [My process](#my-process)
     - [Built with](#built-with)
   - [Author](#author)
 
@@ -37,7 +36,6 @@ Users should be able to:
 - Solution URL: [Add solution URL here](https://github.com/racyriaz/Stats-preview-card-component)
 - Live Site URL: [Add live site URL here](https://racyriaz.github.io/Stats-preview-card-component/)
 
-## My process
 
 ### Built with
 
@@ -48,8 +46,9 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://github.com/racyriaz/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/racyriaz)
-- Twitter - [@yourusername](https://www.twitter.com/racyriaz)
+- Profile - [Riaz](https://github.com/racyriaz/)
+- Connect - [Riaz](https://www.linkedin.com/in/mohamed-riaz/)
+- Frontend Mentor - [@racyriaz](https://www.frontendmentor.io/profile/racyriaz)
+- Twitter - [@racyriaz](https://www.twitter.com/racyriaz)
 
 ---
