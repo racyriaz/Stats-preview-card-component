@@ -131,9 +131,15 @@ h1 .violet {
     .card-body {
         padding: 2rem;
     }
+    p.font2 {
+        margin: 5px 5px 12px 5px;
+    }
+    .stats {
+        font-size: 14px;
+    }
 }
 
-@media only screen and (max-width:700px) and (min-width: 401px) {
+@media only screen and (max-width:655px) and (min-width: 401px) {
     .card {
         flex-direction: column;
         max-height: 100%;
@@ -154,6 +160,15 @@ h1 .violet {
     body {
         display: block;
         height: 100%;
+    }
+    .stats-block {
+        flex-direction: column;
+    }
+    .stats-block>* {
+        text-align: center;
+    }
+    .stats {
+        margin-bottom: 1rem;
     }
     .attribution {
         padding-bottom: 1rem;
