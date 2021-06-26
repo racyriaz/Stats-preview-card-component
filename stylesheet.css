@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+:root {
+    --white-heading: hsl(0, 0%, 100%);
+    --white-para: hsla(0, 0%, 100%, 0.75);
+    --white-stats: hsla(0, 0%, 100%, 0.6);
+    --dark-blue: hsl(233, 47%, 7%);
+    --card-bg-blue: hsl(244, 38%, 16%);
+    --violet: hsl(277, 64%, 61%);
+    --img-tint: hsla(277, 100%, 26%, 0.475);
+}
+
+body {
+    background-color: var(--dark-blue);
+    font-size: 15px;
+}
+
+.font1 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--white-heading);
+}
+
+.font2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: var(--white-para);
+}
+
+p.font2 {
+    line-height: 26px;
+    letter-spacing: 0.75px;
+    margin: 5px 0px 3.5rem;
+}
+
+.font2.title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--white-heading);
+}
+
+h1 .violet {
+    color: var(--violet);
+}
+
+.card {
+    background-color: var(--card-bg-blue);
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 1110px;
+    max-height: 450px;
+    margin: auto;
+    position: relative;
+    top: 8rem;
+}
+
+.stats {
+    color: var(--white-stats);
+}
+
+.stats .numbers {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--white-heading);
+}
+
+#web-image {
+    display: inline-block;
+}
+
+.card-body {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card-image {
+    position: relative;
+}
+
+.img-tint {
+    position: absolute;
+    top: 0;
+    background-color: var(--img-tint);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
